@@ -31,6 +31,7 @@ Example 2:
 <br>
 
 **Sintaxe de função**
+
 ```js
 function f(a,b) { // declara a função f com os argumentos a, b
     const sum = a + b; // lógica da função
