@@ -58,7 +58,6 @@ const -> também sofre o hoisting para o topo, mas não é inicializada
 
 ---  
 <br>
-<br>
 
 **Exemplo de Closure**
 
