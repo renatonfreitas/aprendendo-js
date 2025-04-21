@@ -20,6 +20,8 @@ The three functions are:
 > counter.reset(); // 5  
 > counter.decrement(); // 4  
 
+<br>
+
 **Example 2:**
 
 > **Input:** init = 0, calls = ["increment","increment","decrement","reset","reset"]  
