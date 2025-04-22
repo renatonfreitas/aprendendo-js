@@ -37,7 +37,7 @@ Please solve it without the built-in `Array.map` method.
 **Constraints:**
 
 - `0 <= arr.length <= 1000`  
-- `-109 <= arr[i] <= 109`  
+- `-10^9 <= arr[i] <= 10^9`  
 - `fn` returns an integer.  
 
 <br>
