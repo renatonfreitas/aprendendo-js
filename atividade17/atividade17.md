@@ -63,6 +63,8 @@ The class has three public methods:
 
 # Anotações
 
+**Não consegui fazer a questão. Refazer no futuro!**
+
 TimeLimitedCache se comporta como uma classe, portanto serão instanciados objetos. Cada objeto terá um `cache` particular, por isso o uso do `this`.
 
 ### Outra solução
