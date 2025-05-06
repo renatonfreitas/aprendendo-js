@@ -101,7 +101,7 @@ Só é possível fazer isso se declarar funções com a sintaxe `function`.
 Má prática, porque pode reduzir a legibilidade.  
 <br>
 
-**Fechamentos (Closures)**
+**Closures**
 
 ```js
 function createAdder(a) { // serve como uma fábrica de novas funções, com cada função retornada tendo diferentes comportamentos
