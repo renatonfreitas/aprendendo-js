@@ -40,17 +40,17 @@ Example 2:
 var -> declara uma variável  
 var -> pode ter escopo global ou local  
 var -> pode ser declarada de novo e atualizada dentro de seu escopo  
-var -> sofre o hoisting sendo inicializada com um valor undefined 
+var -> sofre o hoisting sendo inicializada com um valor undefined  
 var -> pode substituir o valor da variável de escopos diferentes e causar comportamentos inesperados 
 
 let -> forma preferida de declarar variáveis  
 let -> tem escopo de bloco (porção de código cercado por { })  
-let -> opde ser atualizada dentro de seu escopo, mas não declarada novamente dentro de seu escopo  
+let -> pode ser atualizada dentro de seu escopo, mas não declarada novamente dentro de seu escopo  
 let -> também sofrem o hoisting para o topo, porém não é inicializada causando, assim, um erro ao tentar usar a variável antes de sua declaração  
 
 const -> declara um valor constante  
 const -> tem escopo de bloco  
-const -> não pode ser declarada e nem atualizada novamente, portanto deve ser inicializado no momento da declaração  
+const -> não pode ser declarada novamente e nem atualizada, portanto deve ser inicializada no momento da declaração  
 const -> também sofre o hoisting para o topo, mas não é inicializada  
 
 (um objeto declarado com const não pode ser atualizado, mas é possível atualizar as propriedades desse objeto)  
