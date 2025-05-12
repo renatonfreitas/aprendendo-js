@@ -68,7 +68,7 @@ return object;
 
 <br>
 
-### Como criar uma função
+### Como criar uma função/um método
 
 Método 1
 
