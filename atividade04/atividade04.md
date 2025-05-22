@@ -59,7 +59,7 @@ var createCounter = function(init) {
 };
 ```
 
-No método reset(), a atribuição é feita antes de a variável ser retornada.  
+No método `reset()`, a atribuição é feita antes de a variável ser retornada.  
 **As arrow functions herdam o `this` do escopo em que estão e não possuem um valor `this` próprio.**
 
 <br>

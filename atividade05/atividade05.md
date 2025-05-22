@@ -83,7 +83,7 @@ var map = function(arr, fn) {
 };
 ```
 
-É passado a função aplicada a cada elemento ( `(transformedArr, element, index) => {transformedArr[index] = fn(element, index); return transformedArr;}` ) e o valor inicial ( [] ) no método `reduce()`.  
+É passado a função aplicada a cada elemento ( `(transformedArr, element, index) => {transformedArr[index] = fn(element, index); return transformedArr;}` ) e o valor inicial ( `[]` ) no método `reduce()`.  
 
 O `transformedArr` é o acumulador, ou seja, a cada invocação do método `reduce()` no array original `arr`, o valor modificado pela função será adicionado no `transformedArr` e o array resultante disso será considerado o acumulador atual na próxima invocação do método.  
 
